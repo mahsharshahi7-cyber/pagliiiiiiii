@@ -1,0 +1,132 @@
+/* Poore page ka mast colorful background */
+body {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    padding: 30px;
+    line-height: 1.6;
+}
+
+/* Heading style */
+h1 {
+    text-align: center;
+    color: #ff4757;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #fff;
+    font-size: 3rem;
+    border-bottom: 4px dashed #ff4757;
+    display: table;
+    margin: 20px auto;
+}
+
+/* Lists ko card jaisa look dena */
+ul, ol {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px 50px;
+    margin: 20px 0;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+
+li {
+    color: #6c5ce7;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Nested list colors */
+ul ul li, ol ol li {
+    color: #2ed573;
+    font-weight: normal;
+    font-size: 1rem;
+    list-style-type: '✨ ';
+}
+
+/* Table ko stylish aur colorful banana */
+table {
+    width: 100%;
+    background: #fff;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 30px 0;
+}
+
+caption {
+    font-size: 2rem;
+    color: #ffffff;
+    background: #1e90ff;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    text-transform: uppercase;
+}
+
+th {
+    background-color: #ffa502;
+    color: white;
+    padding: 15px;
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+}
+
+tr:nth-child(even) { background-color: #f1f2f6; }
+tr:hover { background-color: #ffeaa7; cursor: pointer; }
+
+/* Registration Form ka gradient look */
+form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    border-left: 10px solid #ff4757;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h2 { color: #ff4757; }
+h5 { color: #2f3542; margin-bottom: 5px; border-left: 3px solid #1e90ff; padding-left: 8px; }
+
+/* Input fields colors */
+input[type="text"], input[type="password"], textarea, select {
+    border: 2px solid #70a1ff;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #ff4757;
+    box-shadow: 0 0 8px rgba(255, 71, 87, 0.5);
+}
+
+/* Submit Button Animation */
+input[type="submit"] {
+    background: linear-gradient(to right, #ff4757, #ff6b81);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: block;
+    margin: 20px auto;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 71, 87, 0.4);
+}
+
+/* Video Frame */
+video {
+    border: 5px ridge #ffa502;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+}
